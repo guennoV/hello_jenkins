@@ -1,0 +1,69 @@
+//
+//  coreKit_Version.cpp
+//  uavia-embedded
+//
+//
+
+// This file is auto-generated
+// It allows C++ binaries to expose informations
+// about verison number, version control, and build informations.
+
+#include <coreKit/Version/Version.hpp>
+
+namespace coreKit {
+
+    // Add coreKit version
+
+    static ::coreKit::Version::Handle coreKitVersion("@PACKAGE_NAME@",
+
+    // Version infos
+
+    ::coreKit::VersionInfo(
+
+        @version_major@,
+        @version_minor@,
+        @version_revision@,
+        "@version_release@"
+
+    ),
+
+    {
+        {
+            {
+                // C Compiler infos
+
+                "@CC@ (@ax_cv_c_compiler_vendor@)",
+                "@ax_cv_c_compiler_version@"
+            },
+
+            {
+                // C++ Compiler infos
+
+                "@CXX@ (@ax_cv_cxx_compiler_vendor@)",
+                "@ax_cv_cxx_compiler_version@"
+            }
+        },
+
+        {
+
+            {
+                // Build system infos
+
+                "@build@",
+                "@build_cpu@"
+            },
+
+            {
+                // Host system infos
+
+                "@host@",
+                "@host_cpu@"
+            }
+
+        }
+
+    }
+
+    );
+
+}

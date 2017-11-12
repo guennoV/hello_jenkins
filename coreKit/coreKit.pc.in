@@ -1,0 +1,12 @@
+/------------------ coreKit.pc ------------------
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+
+Name:
+Description:
+Version: @VERSION@
+Requires: yaml-cpp spdlog
+Libs: -L${libdir} -lcoreKit
+Cflags: -I${includedir}
