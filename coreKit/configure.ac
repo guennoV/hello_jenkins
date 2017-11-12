@@ -100,7 +100,7 @@ PKG_CHECK_MODULES(YAML, yaml-cpp)
 PKG_CHECK_MODULES(SPDLOG, spdlog)
 
 # Checks for CPP-Netlib.
-PKG_CHECK_MODULES(NETWORKURI, networkuri)
+#PKG_CHECK_MODULES(NETWORKURI, networkuri)
 
 ################################################################################
 
