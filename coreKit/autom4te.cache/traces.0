@@ -2902,14 +2902,6 @@ m4trace:configure.ac:100: -1- PKG_CHECK_EXISTS([spdlog], [pkg_cv_[]SPDLOG_CFLAGS
 m4trace:configure.ac:100: -1- PKG_CHECK_EXISTS([spdlog], [pkg_cv_[]SPDLOG_LIBS=`$PKG_CONFIG --[]libs "spdlog" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes ], [pkg_failed=yes])
 m4trace:configure.ac:100: -1- _PKG_SHORT_ERRORS_SUPPORTED
-m4trace:configure.ac:103: -1- PKG_CHECK_MODULES([NETWORKURI], [networkuri])
-m4trace:configure.ac:103: -1- m4_pattern_allow([^NETWORKURI_CFLAGS$])
-m4trace:configure.ac:103: -1- m4_pattern_allow([^NETWORKURI_LIBS$])
-m4trace:configure.ac:103: -1- PKG_CHECK_EXISTS([networkuri], [pkg_cv_[]NETWORKURI_CFLAGS=`$PKG_CONFIG --[]cflags "networkuri" 2>/dev/null`
-		      test "x$?" != "x0" && pkg_failed=yes ], [pkg_failed=yes])
-m4trace:configure.ac:103: -1- PKG_CHECK_EXISTS([networkuri], [pkg_cv_[]NETWORKURI_LIBS=`$PKG_CONFIG --[]libs "networkuri" 2>/dev/null`
-		      test "x$?" != "x0" && pkg_failed=yes ], [pkg_failed=yes])
-m4trace:configure.ac:103: -1- _PKG_SHORT_ERRORS_SUPPORTED
 m4trace:configure.ac:108: -1- _m4_warn([obsolete], [The macro `AC_HELP_STRING' is obsolete.
 You should run autoupdate.], [../../lib/autoconf/general.m4:207: AC_HELP_STRING is expanded from...
 ../../lib/autoconf/general.m4:1462: AC_ARG_ENABLE is expanded from...

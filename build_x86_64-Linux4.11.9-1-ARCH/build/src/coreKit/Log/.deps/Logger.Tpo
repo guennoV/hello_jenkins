@@ -1,0 +1,718 @@
+Logger.lo: \
+  /home/atem/Documents/Uavia/uavia-embedded/hello_jenkins/coreKit/src/coreKit/Log/Logger.cpp \
+  /home/atem/Documents/Uavia/uavia-embedded/hello_jenkins/coreKit/src/coreKit/Utils/iziDeclarations.hpp \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/string \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/x86_64-pc-linux-gnu/bits/c++config.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/features.h /usr/include/stdc-predef.h \
+  /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+  /usr/include/bits/long-double.h /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/stringfwd.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/memoryfwd.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/char_traits.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/stl_algobase.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/functexcept.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/exception_defines.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/cpp_type_traits.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/ext/type_traits.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/ext/numeric_traits.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/stl_pair.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/move.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/concept_check.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/type_traits \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/stl_iterator_base_types.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/stl_iterator_base_funcs.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/debug/assertions.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/stl_iterator.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/ptr_traits.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/debug/debug.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/predefined_ops.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/postypes.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/cwchar \
+  /usr/include/wchar.h /usr/include/bits/libc-header-start.h \
+  /usr/include/stdio.h /usr/bin/../lib/clang/4.0.1/include/stdarg.h \
+  /usr/include/bits/wchar.h /usr/bin/../lib/clang/4.0.1/include/stddef.h \
+  /usr/include/xlocale.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/cstdint \
+  /usr/bin/../lib/clang/4.0.1/include/stdint.h /usr/include/stdint.h \
+  /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/allocator.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/ext/new_allocator.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/new \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/exception \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/exception.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/exception_ptr.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/cxxabi_init_exception.h \
+  /usr/bin/../lib/clang/4.0.1/include/__stddef_max_align_t.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/typeinfo \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/hash_bytes.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/nested_exception.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/localefwd.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/x86_64-pc-linux-gnu/bits/c++locale.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/clocale \
+  /usr/include/locale.h /usr/include/bits/locale.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/iosfwd \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/cctype \
+  /usr/include/ctype.h /usr/include/endian.h /usr/include/bits/endian.h \
+  /usr/include/bits/byteswap.h /usr/include/bits/byteswap-16.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/ostream_insert.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/cxxabi_forced.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/stl_function.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/backward/binders.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/range_access.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/initializer_list \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/basic_string.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/ext/atomicity.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
+  /usr/include/pthread.h /usr/include/sched.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/struct_timespec.h /usr/include/bits/sched.h \
+  /usr/include/time.h /usr/include/bits/time.h /usr/include/bits/timex.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/clock_t.h /usr/include/bits/types/struct_tm.h \
+  /usr/include/bits/types/clockid_t.h /usr/include/bits/types/timer_t.h \
+  /usr/include/bits/types/struct_itimerspec.h \
+  /usr/include/bits/pthreadtypes.h /usr/include/bits/setjmp.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/ext/alloc_traits.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/alloc_traits.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/ext/string_conversions.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/cstdlib \
+  /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h /usr/include/sys/types.h \
+  /usr/include/sys/select.h /usr/include/bits/select.h \
+  /usr/include/bits/sigset.h /usr/include/sys/sysmacros.h \
+  /usr/include/bits/sysmacros.h /usr/include/alloca.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/std_abs.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/cstdio \
+  /usr/include/libio.h /usr/include/_G_config.h \
+  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/cerrno \
+  /usr/include/errno.h /usr/include/bits/errno.h \
+  /usr/include/linux/errno.h /usr/include/asm/errno.h \
+  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/functional_hash.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/basic_string.tcc \
+  /home/atem/Documents/Uavia/uavia-embedded/hello_jenkins/coreKit/src/coreKit/Log/Logger.hpp \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/atomic \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/atomic_base.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/atomic_lockfree_defines.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/memory \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/stl_construct.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/stl_uninitialized.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/stl_tempbuf.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/stl_raw_storage_iter.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/ext/concurrence.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/uses_allocator.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/unique_ptr.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/utility \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/stl_relops.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/tuple \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/array \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/stdexcept \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/invoke.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/shared_ptr.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/shared_ptr_base.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/allocated_ptr.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/refwrap.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/ext/aligned_buffer.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/shared_ptr_atomic.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/backward/auto_ptr.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/mutex \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/chrono \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/ratio \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/limits \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/ctime \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/parse_numbers.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/system_error \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/x86_64-pc-linux-gnu/bits/error_constants.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/std_mutex.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/vector \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/stl_vector.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/stl_bvector.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/vector.tcc \
+  /home/atem/Documents/Uavia/uavia-embedded/build_x86_64-Linux4.11.9-1-ARCH/release/include/spdlog/logger.h \
+  /home/atem/Documents/Uavia/uavia-embedded/build_x86_64-Linux4.11.9-1-ARCH/release/include/spdlog/sinks/base_sink.h \
+  /home/atem/Documents/Uavia/uavia-embedded/build_x86_64-Linux4.11.9-1-ARCH/release/include/spdlog/sinks/sink.h \
+  /home/atem/Documents/Uavia/uavia-embedded/build_x86_64-Linux4.11.9-1-ARCH/release/include/spdlog/details/log_msg.h \
+  /home/atem/Documents/Uavia/uavia-embedded/build_x86_64-Linux4.11.9-1-ARCH/release/include/spdlog/common.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/functional \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/std_function.h \
+  /home/atem/Documents/Uavia/uavia-embedded/build_x86_64-Linux4.11.9-1-ARCH/release/include/spdlog/details/null_mutex.h \
+  /home/atem/Documents/Uavia/uavia-embedded/build_x86_64-Linux4.11.9-1-ARCH/release/include/spdlog/fmt/fmt.h \
+  /home/atem/Documents/Uavia/uavia-embedded/build_x86_64-Linux4.11.9-1-ARCH/release/include/spdlog/fmt/bundled/format.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/cassert \
+  /usr/include/assert.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/cmath \
+  /usr/include/math.h /usr/include/bits/math-vector.h \
+  /usr/include/bits/libm-simd-decl-stubs.h /usr/include/bits/huge_val.h \
+  /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h \
+  /usr/include/bits/inf.h /usr/include/bits/nan.h \
+  /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
+  /usr/include/bits/fp-fast.h /usr/include/bits/mathcalls.h \
+  /usr/include/bits/iscanonical.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/cstring \
+  /usr/include/string.h \
+  /home/atem/Documents/Uavia/uavia-embedded/build_x86_64-Linux4.11.9-1-ARCH/release/include/spdlog/fmt/bundled/format.cc \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/climits \
+  /usr/bin/../lib/clang/4.0.1/include/limits.h /usr/include/limits.h \
+  /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h \
+  /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/xopen_lim.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/cstdarg \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/cstddef \
+  /home/atem/Documents/Uavia/uavia-embedded/build_x86_64-Linux4.11.9-1-ARCH/release/include/spdlog/details/os.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/thread \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/algorithm \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/stl_algo.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/algorithmfwd.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/stl_heap.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/uniform_int_dist.h \
+  /usr/include/sys/stat.h /usr/include/bits/stat.h /usr/include/unistd.h \
+  /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+  /usr/include/bits/confname.h /usr/include/getopt.h \
+  /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+  /usr/include/bits/fcntl-linux.h /usr/include/bits/uio.h \
+  /usr/include/linux/falloc.h /usr/include/sys/syscall.h \
+  /usr/include/asm/unistd.h /usr/include/asm/unistd_64.h \
+  /usr/include/bits/syscall.h \
+  /home/atem/Documents/Uavia/uavia-embedded/build_x86_64-Linux4.11.9-1-ARCH/release/include/spdlog/formatter.h \
+  /home/atem/Documents/Uavia/uavia-embedded/build_x86_64-Linux4.11.9-1-ARCH/release/include/spdlog/details/pattern_formatter_impl.h \
+  /home/atem/Documents/Uavia/uavia-embedded/build_x86_64-Linux4.11.9-1-ARCH/release/include/spdlog/details/logger_impl.h \
+  /home/atem/Documents/Uavia/uavia-embedded/build_x86_64-Linux4.11.9-1-ARCH/release/include/spdlog/sinks/stdout_sinks.h \
+  /home/atem/Documents/Uavia/uavia-embedded/hello_jenkins/coreKit/src/coreKit/Log/Log.hpp \
+  /home/atem/Documents/Uavia/uavia-embedded/build_x86_64-Linux4.11.9-1-ARCH/release/include/spdlog/spdlog.h \
+  /home/atem/Documents/Uavia/uavia-embedded/build_x86_64-Linux4.11.9-1-ARCH/release/include/spdlog/tweakme.h \
+  /home/atem/Documents/Uavia/uavia-embedded/build_x86_64-Linux4.11.9-1-ARCH/release/include/spdlog/details/spdlog_impl.h \
+  /home/atem/Documents/Uavia/uavia-embedded/build_x86_64-Linux4.11.9-1-ARCH/release/include/spdlog/details/registry.h \
+  /home/atem/Documents/Uavia/uavia-embedded/build_x86_64-Linux4.11.9-1-ARCH/release/include/spdlog/async_logger.h \
+  /home/atem/Documents/Uavia/uavia-embedded/build_x86_64-Linux4.11.9-1-ARCH/release/include/spdlog/details/async_logger_impl.h \
+  /home/atem/Documents/Uavia/uavia-embedded/build_x86_64-Linux4.11.9-1-ARCH/release/include/spdlog/details/async_log_helper.h \
+  /home/atem/Documents/Uavia/uavia-embedded/build_x86_64-Linux4.11.9-1-ARCH/release/include/spdlog/details/mpmc_bounded_q.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/unordered_map \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/hashtable.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/hashtable_policy.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/unordered_map.h \
+  /home/atem/Documents/Uavia/uavia-embedded/build_x86_64-Linux4.11.9-1-ARCH/release/include/spdlog/sinks/file_sinks.h \
+  /home/atem/Documents/Uavia/uavia-embedded/build_x86_64-Linux4.11.9-1-ARCH/release/include/spdlog/details/file_helper.h \
+  /home/atem/Documents/Uavia/uavia-embedded/build_x86_64-Linux4.11.9-1-ARCH/release/include/spdlog/sinks/ansicolor_sink.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/map \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/stl_tree.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/stl_map.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/stl_multimap.h \
+  /home/atem/Documents/Uavia/uavia-embedded/hello_jenkins/coreKit/src/coreKit/Utils/Singleton.hpp \
+  /home/atem/Documents/Uavia/uavia-embedded/hello_jenkins/coreKit/src/coreKit/Utils/Singleton.ipp
+
+/home/atem/Documents/Uavia/uavia-embedded/hello_jenkins/coreKit/src/coreKit/Utils/iziDeclarations.hpp:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/string:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/x86_64-pc-linux-gnu/bits/c++config.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/x86_64-pc-linux-gnu/bits/os_defines.h:
+
+/usr/include/features.h:
+
+/usr/include/stdc-predef.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/bits/long-double.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/x86_64-pc-linux-gnu/bits/cpu_defines.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/stringfwd.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/memoryfwd.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/char_traits.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/stl_algobase.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/functexcept.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/exception_defines.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/cpp_type_traits.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/ext/type_traits.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/ext/numeric_traits.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/stl_pair.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/move.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/concept_check.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/type_traits:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/stl_iterator_base_types.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/stl_iterator_base_funcs.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/debug/assertions.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/stl_iterator.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/ptr_traits.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/debug/debug.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/predefined_ops.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/postypes.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/cwchar:
+
+/usr/include/wchar.h:
+
+/usr/include/bits/libc-header-start.h:
+
+/usr/include/stdio.h:
+
+/usr/bin/../lib/clang/4.0.1/include/stdarg.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/bin/../lib/clang/4.0.1/include/stddef.h:
+
+/usr/include/xlocale.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/cstdint:
+
+/usr/bin/../lib/clang/4.0.1/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/allocator.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/x86_64-pc-linux-gnu/bits/c++allocator.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/ext/new_allocator.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/new:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/exception:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/exception.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/exception_ptr.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/cxxabi_init_exception.h:
+
+/usr/bin/../lib/clang/4.0.1/include/__stddef_max_align_t.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/typeinfo:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/hash_bytes.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/nested_exception.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/localefwd.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/x86_64-pc-linux-gnu/bits/c++locale.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/clocale:
+
+/usr/include/locale.h:
+
+/usr/include/bits/locale.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/iosfwd:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/cctype:
+
+/usr/include/ctype.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/bits/byteswap-16.h:
+
+/usr/include/bits/uintn-identity.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/ostream_insert.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/cxxabi_forced.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/stl_function.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/backward/binders.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/range_access.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/initializer_list:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/basic_string.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/ext/atomicity.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/x86_64-pc-linux-gnu/bits/gthr.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/x86_64-pc-linux-gnu/bits/gthr-default.h:
+
+/usr/include/pthread.h:
+
+/usr/include/sched.h:
+
+/usr/include/bits/types/time_t.h:
+
+/usr/include/bits/types/struct_timespec.h:
+
+/usr/include/bits/sched.h:
+
+/usr/include/time.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/bits/timex.h:
+
+/usr/include/bits/types/struct_timeval.h:
+
+/usr/include/bits/types/clock_t.h:
+
+/usr/include/bits/types/struct_tm.h:
+
+/usr/include/bits/types/clockid_t.h:
+
+/usr/include/bits/types/timer_t.h:
+
+/usr/include/bits/types/struct_itimerspec.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/bits/setjmp.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/x86_64-pc-linux-gnu/bits/atomic_word.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/ext/alloc_traits.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/alloc_traits.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/ext/string_conversions.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/cstdlib:
+
+/usr/include/stdlib.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/bits/sysmacros.h:
+
+/usr/include/alloca.h:
+
+/usr/include/bits/stdlib-float.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/std_abs.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/cstdio:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/cerrno:
+
+/usr/include/errno.h:
+
+/usr/include/bits/errno.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/asm/errno.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/functional_hash.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/basic_string.tcc:
+
+/home/atem/Documents/Uavia/uavia-embedded/hello_jenkins/coreKit/src/coreKit/Log/Logger.hpp:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/atomic:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/atomic_base.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/atomic_lockfree_defines.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/memory:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/stl_construct.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/stl_uninitialized.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/stl_tempbuf.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/stl_raw_storage_iter.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/ext/concurrence.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/uses_allocator.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/unique_ptr.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/utility:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/stl_relops.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/tuple:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/array:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/stdexcept:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/invoke.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/shared_ptr.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/shared_ptr_base.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/allocated_ptr.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/refwrap.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/ext/aligned_buffer.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/shared_ptr_atomic.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/backward/auto_ptr.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/mutex:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/chrono:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/ratio:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/limits:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/ctime:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/parse_numbers.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/system_error:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/x86_64-pc-linux-gnu/bits/error_constants.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/std_mutex.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/vector:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/stl_vector.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/stl_bvector.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/vector.tcc:
+
+/home/atem/Documents/Uavia/uavia-embedded/build_x86_64-Linux4.11.9-1-ARCH/release/include/spdlog/logger.h:
+
+/home/atem/Documents/Uavia/uavia-embedded/build_x86_64-Linux4.11.9-1-ARCH/release/include/spdlog/sinks/base_sink.h:
+
+/home/atem/Documents/Uavia/uavia-embedded/build_x86_64-Linux4.11.9-1-ARCH/release/include/spdlog/sinks/sink.h:
+
+/home/atem/Documents/Uavia/uavia-embedded/build_x86_64-Linux4.11.9-1-ARCH/release/include/spdlog/details/log_msg.h:
+
+/home/atem/Documents/Uavia/uavia-embedded/build_x86_64-Linux4.11.9-1-ARCH/release/include/spdlog/common.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/functional:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/std_function.h:
+
+/home/atem/Documents/Uavia/uavia-embedded/build_x86_64-Linux4.11.9-1-ARCH/release/include/spdlog/details/null_mutex.h:
+
+/home/atem/Documents/Uavia/uavia-embedded/build_x86_64-Linux4.11.9-1-ARCH/release/include/spdlog/fmt/fmt.h:
+
+/home/atem/Documents/Uavia/uavia-embedded/build_x86_64-Linux4.11.9-1-ARCH/release/include/spdlog/fmt/bundled/format.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/cassert:
+
+/usr/include/assert.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/cmath:
+
+/usr/include/math.h:
+
+/usr/include/bits/math-vector.h:
+
+/usr/include/bits/libm-simd-decl-stubs.h:
+
+/usr/include/bits/huge_val.h:
+
+/usr/include/bits/huge_valf.h:
+
+/usr/include/bits/huge_vall.h:
+
+/usr/include/bits/inf.h:
+
+/usr/include/bits/nan.h:
+
+/usr/include/bits/flt-eval-method.h:
+
+/usr/include/bits/fp-logb.h:
+
+/usr/include/bits/fp-fast.h:
+
+/usr/include/bits/mathcalls.h:
+
+/usr/include/bits/iscanonical.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/cstring:
+
+/usr/include/string.h:
+
+/home/atem/Documents/Uavia/uavia-embedded/build_x86_64-Linux4.11.9-1-ARCH/release/include/spdlog/fmt/bundled/format.cc:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/climits:
+
+/usr/bin/../lib/clang/4.0.1/include/limits.h:
+
+/usr/include/limits.h:
+
+/usr/include/bits/posix1_lim.h:
+
+/usr/include/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/bits/posix2_lim.h:
+
+/usr/include/bits/xopen_lim.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/cstdarg:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/cstddef:
+
+/home/atem/Documents/Uavia/uavia-embedded/build_x86_64-Linux4.11.9-1-ARCH/release/include/spdlog/details/os.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/thread:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/algorithm:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/stl_algo.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/algorithmfwd.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/stl_heap.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/uniform_int_dist.h:
+
+/usr/include/sys/stat.h:
+
+/usr/include/bits/stat.h:
+
+/usr/include/unistd.h:
+
+/usr/include/bits/posix_opt.h:
+
+/usr/include/bits/environments.h:
+
+/usr/include/bits/confname.h:
+
+/usr/include/getopt.h:
+
+/usr/include/fcntl.h:
+
+/usr/include/bits/fcntl.h:
+
+/usr/include/bits/fcntl-linux.h:
+
+/usr/include/bits/uio.h:
+
+/usr/include/linux/falloc.h:
+
+/usr/include/sys/syscall.h:
+
+/usr/include/asm/unistd.h:
+
+/usr/include/asm/unistd_64.h:
+
+/usr/include/bits/syscall.h:
+
+/home/atem/Documents/Uavia/uavia-embedded/build_x86_64-Linux4.11.9-1-ARCH/release/include/spdlog/formatter.h:
+
+/home/atem/Documents/Uavia/uavia-embedded/build_x86_64-Linux4.11.9-1-ARCH/release/include/spdlog/details/pattern_formatter_impl.h:
+
+/home/atem/Documents/Uavia/uavia-embedded/build_x86_64-Linux4.11.9-1-ARCH/release/include/spdlog/details/logger_impl.h:
+
+/home/atem/Documents/Uavia/uavia-embedded/build_x86_64-Linux4.11.9-1-ARCH/release/include/spdlog/sinks/stdout_sinks.h:
+
+/home/atem/Documents/Uavia/uavia-embedded/hello_jenkins/coreKit/src/coreKit/Log/Log.hpp:
+
+/home/atem/Documents/Uavia/uavia-embedded/build_x86_64-Linux4.11.9-1-ARCH/release/include/spdlog/spdlog.h:
+
+/home/atem/Documents/Uavia/uavia-embedded/build_x86_64-Linux4.11.9-1-ARCH/release/include/spdlog/tweakme.h:
+
+/home/atem/Documents/Uavia/uavia-embedded/build_x86_64-Linux4.11.9-1-ARCH/release/include/spdlog/details/spdlog_impl.h:
+
+/home/atem/Documents/Uavia/uavia-embedded/build_x86_64-Linux4.11.9-1-ARCH/release/include/spdlog/details/registry.h:
+
+/home/atem/Documents/Uavia/uavia-embedded/build_x86_64-Linux4.11.9-1-ARCH/release/include/spdlog/async_logger.h:
+
+/home/atem/Documents/Uavia/uavia-embedded/build_x86_64-Linux4.11.9-1-ARCH/release/include/spdlog/details/async_logger_impl.h:
+
+/home/atem/Documents/Uavia/uavia-embedded/build_x86_64-Linux4.11.9-1-ARCH/release/include/spdlog/details/async_log_helper.h:
+
+/home/atem/Documents/Uavia/uavia-embedded/build_x86_64-Linux4.11.9-1-ARCH/release/include/spdlog/details/mpmc_bounded_q.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/unordered_map:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/hashtable.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/hashtable_policy.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/unordered_map.h:
+
+/home/atem/Documents/Uavia/uavia-embedded/build_x86_64-Linux4.11.9-1-ARCH/release/include/spdlog/sinks/file_sinks.h:
+
+/home/atem/Documents/Uavia/uavia-embedded/build_x86_64-Linux4.11.9-1-ARCH/release/include/spdlog/details/file_helper.h:
+
+/home/atem/Documents/Uavia/uavia-embedded/build_x86_64-Linux4.11.9-1-ARCH/release/include/spdlog/sinks/ansicolor_sink.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/map:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/stl_tree.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/stl_map.h:
+
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/bits/stl_multimap.h:
+
+/home/atem/Documents/Uavia/uavia-embedded/hello_jenkins/coreKit/src/coreKit/Utils/Singleton.hpp:
+
+/home/atem/Documents/Uavia/uavia-embedded/hello_jenkins/coreKit/src/coreKit/Utils/Singleton.ipp:
