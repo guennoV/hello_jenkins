@@ -1,0 +1,28 @@
+### NetworkUri.pc.in --- 
+## 
+## Filename: NetworkUri.pc.in
+## Author: Alex BIGUET
+## Created: Tue Sep 12 17:27:18 2017 (+0200)
+## Last-Updated: Tue Sep 12 17:28:25 2017 (+0200)
+##           By: Alex BIGUET
+##     Update #: 8
+## 
+## Uavia
+## 
+
+prefix=@CMAKE_INSTALL_PREFIX@
+exec_prefix=${prefix}/@INSTALL_PATH_BIN@
+libdir=${prefix}/@INSTALL_PATH_LIB@
+includedir=${prefix}/@INSTALL_PATH_HEADERS@
+
+Name: @PROJECT_NAME@
+Description: A Uri parser library
+Version: @URI_VERSION@
+Requires: 
+Libs: -L${libdir} -lnetworkuri
+Cflags: -I${includedir}
+
+
+
+
+######################################################################
